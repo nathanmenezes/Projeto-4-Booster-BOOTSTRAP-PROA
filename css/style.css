@@ -1,0 +1,22 @@
+#home{
+    background: #0d6efd;
+    min-height: 500px;
+}
+
+.card{
+    transition: all .5s ease;
+}
+
+.card:hover{
+    cursor:pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    transform: scale(1.1);
+}
+
+.btn{
+    transition: all .5 ease;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
